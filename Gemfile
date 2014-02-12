@@ -5,7 +5,6 @@ gem "berkshelf", '~> 2.0.14'
 gem 'vagrant'
 gem 'vagrant-berkshelf'
 gem 'vagrant-omnibus'
-
 gem 'chef', '~> 11.8'
 
 # Testing
