@@ -15,5 +15,5 @@ group :test do
   
   gem 'kitchen-vagrant'
   gem 'minitest-chef-handler'
-  gem 'test-kitchen', '~> 1.0.0.alpha'
+  gem 'test-kitchen'
 end
