@@ -7,7 +7,7 @@ describe 'clone-me::default' do
     stub_command("apt-key list | grep 548C16BF").and_return("dont-know")
     stub_command("grep 'START=yes' /etc/default/monit").and_return("Start=yes")
 
-    ChefSpec::Runner.new(platform: 'ubuntu', version: '12.04') do
+    ChefSpec::Runner.new(platform: 'ubuntu', version: '13.10') do
       Chef::Config[:client_key] = 'NOT_A_FILE'
     end.converge(described_recipe)
   end
