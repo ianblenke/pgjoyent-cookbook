@@ -11,5 +11,5 @@ platforms:
 
 suites:
 - name: host
-  run_list: ['minitest-handler', 'clone-me_test::default']
+  run_list: ['minitest-handler', 'pgjoyent_test::default']
   attributes: {}

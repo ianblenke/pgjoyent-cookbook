@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: clone-me
+# Cookbook Name:: pgjoyent
 # Recipe:: default
 #
 # Copyright 2014, CrowdFlower

@@ -1,1 +1,1 @@
-include_recipe 'clone-me'
+include_recipe 'pgjoyent'
